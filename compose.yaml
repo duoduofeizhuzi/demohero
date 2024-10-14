@@ -1,0 +1,9 @@
+services:
+  app:
+    image: 'demo:latest'
+    build:
+      context: E:/code/demo
+    ports:
+      - "9090:8080"
+    volumes:
+      - E:/code/demo:/app
