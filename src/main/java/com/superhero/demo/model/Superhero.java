@@ -3,6 +3,7 @@ package com.superhero.demo.model;
 import java.util.List;
 
 public class Superhero {
+    //做个记号，忘了要一个个文件上传了==alpha_v1
     private String alias;
     private String name;
     private List<String> powers;
